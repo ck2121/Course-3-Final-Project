@@ -1,0 +1,29 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+## **Variables**
+
+***
+
+>This section describes the variables that were used in the run_analysis.R file.
+
+***
+>
+|Variable Names|Description|
+|:------------:|:-----------|
+|XtestData|Contains the X Test data from the downloaded files.|
+|XtrainData|Contains the X Train data from the downloaded files.|
+|Xdata|The combination of the X Test and X Train data.|
+|YtestData|Contains the Y Test data from the downloaded files.|
+|YtrainData|Contains the Y Train data from the downloaded files.|
+|Ydata|The combination of the Y Test and Y Train data.|
+|subTest|The subject test data from the downloaded files.|
+|subTrain|The subject train data from the downloaded files.|
+|Subjects|The combined subject test and train data.|
+|features|The feature data from the downloaded files.|
+|keepSDmean|A vector to only keep the means and std from the columns.|
+|activities|The activity labels data from the downloaded files.|
+|tidyData|The completed first tidy data set.|
+|tidyData2|The second tidy data set with the averages of each variable.|
